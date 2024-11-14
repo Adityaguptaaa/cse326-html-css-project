@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     #navbar{height: 60px;
+    background-color: black;}
+    #logo{color: chocolate;}
+    button{background-color: chocolate;
+    }
+
+    a{margin: 20px;
+    text-decoration: none;}
+
+    #cart{color: white;}
+
+    .Electronics {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  .mobiles {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  p{
+    color: #007185;
+  }
+  .mobiles img {
+    width: 100%;
+    height: auto;
+  }
+
+  .mobiles button {
+    padding: 10px;
+    background-color: #febd69;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .dress img {
+    width: 100%;
+    height: auto;
+  }
+
+  .dress button {
+    padding: 10px;
+    background-color: #febd69;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .clothes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  .dress {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+</style>
+<body>
+    <header>
+        <div id="navbar"><a id="logo" href="https://www.amazon.in/">amazon.in</a>
+            <input placeholder="search amazon.in"> 
+            <button>Search</button>
+            <a id="cart" href="#">My Cart</a> 
+            <a id="cart" href="#">Orders</a>
+        </div></header>
+
+        <h2>Hot New Releases in Electronics</h2>
+    <div class="Electronics">
+        
+      <div class="mobiles">
+        <img src="https://images-eu.ssl-images-amazon.com/images/I/81T3olLXpUL._AC_UL450_SR450,320_.jpg">
+        <h3>Samsung Galaxy M05</h3>
+        <p>₹6,499</p>
+        <button>Add to Cart</button>
+      </div>
+      
+      <div class="mobiles">
+        <img src="https://images-eu.ssl-images-amazon.com/images/I/61Io5-ojWUL._AC_UL450_SR450,320_.jpg">
+        <h3>One Plus Nord C Lite</h3>
+        <p>₹19,999</p>
+        <button>Add to Cart</button>
+      </div>
+
+    <div class="mobiles">
+        <img src="https://images-eu.ssl-images-amazon.com/images/I/719LcA76E5L._AC_UL450_SR450,320_.jpg">
+        <h3>Poco M6</h3>
+        <p>₹7,999</p>
+        <button>Add to cart</button>
+    </div>
+
+    <div class="mobiles">
+        <img src="https://images-eu.ssl-images-amazon.com/images/I/81LJaRu0cZL._AC_UL450_SR450,320_.jpg">
+        <h3>Samsung Galaxy M15</h3>
+        <p>₹11,999</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="mobiles">
+        <img src="https://images-eu.ssl-images-amazon.com/images/I/619VJYWIbXL._AC_UL450_SR450,320_.jpg">
+        <h3>iQ00 Z9 Lite</h3>
+        <p>₹11,499 </p>
+        <button>Add to Cart</button>
+     </div>
+
+        <div class="mobiles">
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/51c5j0aJtYL._AC_UL450_SR450,320_.jpg">
+          <h3>Xiomi Power bank 4i</h3>
+          <p>₹1,999</p>
+          <button>Add to Cart</button>
+        </div>
+        </div>
+
+    <h2>Hot New Releases in clothing</h2>
+    <div class="clothes">
+        <div class="dress">
+            <img src="https://images-eu.ssl-images-amazon.com/images/I/71mX4WATh-L._AC_UL450_SR450,320_.jpg">
+            <h3>GoSriKi Women's Rayon Blend Anarkali Printed Kurta with Palazzo & Dupatta</h3>
+            <p>₹779</p>
+            <button>Add to Cart</button>
+        </div>
+
+    <div class="dress">
+        <img src="https://images-eu.ssl-images-amazon.com/images/I/51suEsggRLL._AC_UL450_SR450,320_.jpg">
+        <h3>ANNI DESIGNER Women's Rayon Blend Solid Straight Kurta with Pant & Dupatta</h3>
+        <p>₹679</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="dress">
+    <img src="https://images-eu.ssl-images-amazon.com/images/I/61gxNFI6LsL._AC_UL450_SR450,320_.jpg">
+    <h3> GoSriKi Women's Rayon Blend Anarkali Printed Kurta with Pant</h3>
+    <p>₹589</p>
+    <button>Add to Cart</button>
+</div>
+
+    <div class="dress">
+    <img src="https://images-eu.ssl-images-amazon.com/images/I/71Xvagl5gsL._AC_UL450_SR450,320_.jpg">
+    <h3>Nermosa Women Cotton Block Printed Kurta Pant With Dupatta</h3>
+    <p>₹699</p>
+    <button>Add to Cart</button>
+</div>
+
+<div class="dress">
+    <img src="https://images-eu.ssl-images-amazon.com/images/I/41BH65pmosL._AC_UL450_SR450,320_.jpg">
+    <h3> FN3 Half Zipper Men's Sweatshirt || Hoodie for Men || Unisex Sweatshirt</h3>
+    <p>₹499</p>
+    <button>Add to Cart</button>
+</div>
+
+<div class="dress">
+    <img src="https://images-eu.ssl-images-amazon.com/images/I/61mqx2-CJdL._AC_UL450_SR450,320_.jpg">
+    <h3>#Ben Martin jacket for men || hoodies for men || winter jackets for men </h3>
+    <p>₹899</p>
+    <button>Add to Cart</button>
+</div>
+    </div>
+</body>
+</html>

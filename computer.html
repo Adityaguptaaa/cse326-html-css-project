@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ #navbar{height: 60px;
+    background-color: black;}
+    #logo{color: chocolate;}
+    button{background-color: chocolate;
+    }
+
+    a{margin: 20px;
+    text-decoration: none;}
+
+    #cart{color: white;}
+
+    .computer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .laptop {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .laptop img {
+    width: 100%;
+    height: auto;
+  }
+
+  .laptop button {
+    padding: 10px;
+    background-color: #febd69;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  p{color: #007185;;}
+</style>
+<body>
+
+    <header>
+        <div id="navbar"><a id="logo" href="https://www.amazon.in/">amazon.in</a>
+            <input placeholder="search amazon.in"> 
+            <button>Search</button>
+            <a id="cart" href="#">My Cart</a> 
+            <a id="cart" href="#">Orders</a>
+        </div></header>
+
+    <div class="computer">
+     <div class="laptop">
+        <img src="https://m.media-amazon.com/images/I/31RyIfbGi7L.AC_SX250.jpg">
+        <h3>HP DHE-6002 Wired Speaker, 3.5mm aux connectivity, Surround Sound, PC and Phone Compatible, Easy Volume Contro
+        </h3>
+        <P>₹999</P>
+        <button>Add to Cart</button>
+     </div>
+     <div class="laptop">
+        <img src="https://m.media-amazon.com/images/I/41cTJy39opL.AC_SX250.jpg">
+        <h3>amazon basics Large Laptop Bag For Office, College & Travel </h3>
+        <p>₹2,099</p>
+        <button>Add to Cart</button>
+     </div>
+     <div class="laptop">
+        <img src="https://m.media-amazon.com/images/I/41pfwVMaJDL.AC_SX250.jpg">
+        <h3>Kreo Owl Full HD 1080P 60 FPS Webcam with Auto-Focus and Built-in Dual Digital Mic, Plug and Play Setup for Vi</h3>
+        <p>₹3,799</p>
+        <button>Add to Cart</button>
+     </div>
+     <div class="laptop">
+        <img src="https://m.media-amazon.com/images/I/41oo7ZHlTHL.AC_SX250.jpg">
+        <h3>ViewSonic (From USA)33.85 Cm (13.33") FHD Digital Graphics Pen Tablet, Second Screen for Laptop with 8192 Pen </h3>
+        <p>₹27,086</p>
+        <button>Add to Cart</button>
+     </div>
+
+    <div class="laptop">
+        <img src="https://m.media-amazon.com/images/I/41q4wcXpS9L.AC_SX250.jpg">
+        <h3>ZEBRONICS K4000MW Wireless Keyboard with 2 Bluetooth & 2.4 GHz Wireless Connection,78 Keys, Integrated Multime</h3>
+        <p>₹899</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="laptop">
+        <img src="https://m.media-amazon.com/images/I/31+ZBc9nRhL.AC_SX250.jpg">
+        <h3>amazon basics Rechargeable Wireless Mouse with RGB LED Backlit 1600 DPI Ergonomic Mouse for Laptop, PC</h3>
+        <p>₹729</p>
+        <button>Add to Cart</button>
+    </div>
+    </div>
+</body>
+</html>
